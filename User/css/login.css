@@ -1,0 +1,114 @@
+#login {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+#login .container {
+	width: 1200px;
+	min-height: 100vh;
+	margin: 0px auto;
+}
+
+#login .container .form_login {
+	width: 600px;
+	height: 100vh;
+	background-color: rgba(29,29,29,1);
+	margin: 0px auto;
+}
+
+#login .container .form_login .title_login {
+	width: 100%;
+	height: 100px;
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#login .container .form_login .title_login h2{
+	width: 300px;
+	height: 50px;
+	background-color: #00abfd;
+	line-height: 50px;
+	margin-left: 150px;
+	border-radius: 25px;
+	color: white;
+	font-size: 25px;
+}
+
+#login .container .form_login div {
+	text-align: center;
+}
+
+#login .container .form_login div input {
+	text-align: center;
+	width: 250px;
+	font-size: 17px;
+	margin-top: 10px;
+	height: 40px;
+	border-radius: 12px;
+	box-shadow: inset 0 0 2px 1px rgba(0,0,0,.6);
+}
+
+#login .container .form_login div button {
+	margin-top: 20px;
+	font-size: 15px;
+	width: 100px;
+	height: 35px;
+	color: white;
+}
+
+#login .container .form_login div button:active{
+	background-color: red;
+}
+
+#login .container .form_login div button#dangnhap{
+	background-color: rgba(50,77,93,1);
+	cursor: pointer;
+}
+
+#login .container .form_login div button#dangnhap:hover{
+	background-color: rgba(50,77,93,.6);
+}
+
+#login .container .form_login div button#dangky {
+	background-color: rgba(212, 94, 35, 1);
+	cursor: pointer;
+}
+
+#login .container .form_login div button#dangky:hover {
+	background-color: rgba(212, 94, 35, .6);
+}
+
+#login .container .form_login .login_with {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	margin-top: 50px;
+}
+
+#login .container .form_login .login_with span {
+	margin-right: 20px;
+}
+
+#login .container .form_login .login_with span h2{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	font-style: italic;
+}
+
+#login .container .form_login .login_with span i.fa-facebook-square {
+	color: blue;
+	cursor: pointer;
+	line-height: 50px;
+	font-size: 30px;
+}
+
+#login .container .form_login .login_with span i.fa-google-plus-square {
+	color: white;
+	cursor: pointer;
+	line-height: 50px;
+	font-size: 30px;
+}

@@ -1,0 +1,288 @@
+#BXH {
+	width: 100%;
+	height: auto;
+}
+
+#BXH .container {
+	width: 1200px;
+	min-height: 2200px;
+	margin: 0px auto;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+}
+
+
+#BXH .container .vung-BXH {
+	width: 850px;
+	min-height: 2150px;
+	background-color: transparent;
+}
+
+#BXH .container .vung-BXH .khuvuc-XH {
+	width: 850px;
+	height: 50px;
+	background-color: transparent;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#BXH .container .vung-BXH .khuvuc-XH div {
+	width: 280px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 800;
+	color: white;
+	cursor: pointer;
+}
+
+#BXH .container .vung-BXH .khuvuc-XH div.active{
+	color: #2cf7db;
+}
+
+#BXH .container .tieude-BXH {
+	width: 850px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: orange;
+	font-size: 20px;
+	text-shadow: 4px 2px black;
+}
+
+#BXH .container .vung-BXH .baihat-XH {
+	width: 850px;
+	min-height: 100vh;
+	background-color: transparent;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH {
+	width: 850px;
+	min-height: 100px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid gray;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .so-XH{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 600;
+	color: orange;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .hinh-XH {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .hinh-XH img{
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .the-h3-va-p {
+	width: 300px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .the-h3-va-p h3{
+	margin-top: 10px;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .the-h3-va-p h3 a,
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .the-h3-va-p p a{
+	text-decoration: none;
+	color: white;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .the-h3-va-p h3 a:hover,
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .the-h3-va-p p a:hover {
+	color: #2cf7db;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .soluotnghe{
+	width: 150px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .soluotnghe span i {
+	margin-right: 10px;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .icons {
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .icons span i {
+	margin-right: 15px;
+	color: white;
+}
+
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .icons span i.fa-heart:hover {
+	color: red;
+}
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .icons span i.fa-play:hover {
+	color: blue;
+}
+#BXH .container .vung-BXH .baihat-XH .moibaihat-XH .icons span i.fa-list:hover {
+	color: green;
+}
+
+#BXH .container .chudehot {
+	width: 300px;
+	height: 2050px;
+	margin-left: 50px;
+	background-color: transparent;
+	margin-top: 50px;
+}
+
+#BXH .container .chudehot .chu-chudehot {
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+#BXH .container .chudehot .chu-chudehot a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+#BXH .container .chudehot .list-chudehot {
+	width: 300px;
+	min-height: 1000px;
+}
+
+#BXH .container .chudehot .list-chudehot .moi-chudehot {
+	width: 300px;
+	height: 90px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#BXH .container .chudehot .list-chudehot .moi-chudehot .hinh-chudehot {
+	width: 300px;
+	height: 90px;
+	position: absolute;
+	top: 0px;
+	opacity: 0.7;
+}
+
+#BXH .container .chudehot .list-chudehot .moi-chudehot .hinh-chudehot img {
+	width: 100%;
+	height: 100%;
+}
+
+#BXH .container .chudehot .list-chudehot .moi-chudehot .background-chudehot {
+	width: 300px;
+	height: 90px;
+	
+	background-color: black;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	line-height: 90px;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+#BXH .container .chudehot .rapper {
+	width: 300px;
+	height: 600px;
+	background-color: transparent;
+	position: relative;
+}
+
+#BXH .container .chudehot .rapper .chu-rapper {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 10px;
+}
+
+#BXH .container .chudehot .rapper .chu-rapper a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+#BXH .container .chudehot .rapper .rapper-noibat {
+	width: 290px;
+	height: 250px;
+	margin-left: 10px;
+}
+
+#BXH .container .chudehot .rapper .rapper-noibat img{
+	width: 100%;
+	height: 100%;
+}
+
+#BXH .container .chudehot .rapper .rapper-noibat-hover {
+	width: 290px;
+	margin-left: 10px;
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size: 20px;
+	background-color: black;
+	opacity: 0.6;
+	color: white;
+	display: none;
+	position: absolute;
+	top: 50px;
+}
+
+#BXH .container .chudehot .rapper-conlai {
+	width: 140px;
+	height: 140px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+#BXH .container .chudehot .rapper-conlai div {
+	width: 140px;
+	height: 140px;
+	
+}
+
+#BXH .container .chudehot .rapper-conlai div img{
+	width: 100%;
+	height: 100%;
+
+}
+
+#BXH .container .chudehot .rapper-conlai-hover{
+	width: 140px;
+	height: 140px;
+	background-color: black;
+	opacity: 0.6;
+	text-align: center;
+	line-height: 140px;
+	position: absolute;
+	color: white;
+	top: 0px;
+	display: none;
+}

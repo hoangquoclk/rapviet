@@ -1,0 +1,342 @@
+#form-music {
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+}
+
+#form-music .container {
+	width: 1200px;
+	min-height: 100vh;
+	margin: 0px auto;
+}
+
+#form-music .container .title-form-music {
+	width: 1200px;
+	height: 50px;
+	display: flex;
+}
+
+#form-music .container .title-form-music .chu-form-music {
+	width: 850px;
+	height: 100%;
+	line-height: 50px;
+	color: white;
+}
+
+#form-music .container .title-form-music .soluotnghe {
+	width: 350px;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+
+#form-music .container .title-form-music .soluotnghe span i {
+	margin-right: 10px;
+}
+
+#form-music .container .form-list-music {
+	width: 1200px;
+	height: auto;
+	background-color: transparent;
+}
+
+#form-music .container .form-list-music .play-music {
+	width: 100%;
+	height: 400px;
+	background-color: transparent;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text {
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .form-image{
+	padding: 50px;
+	width: 300px;
+	height: 300px;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .form-image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	animation: xoayvong 3s linear infinite;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .form-text {
+	width: 900px;
+	height: 300px;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .form-text .title-song {
+	margin-top: 50px;
+	width: 900px;
+	height: 50px;
+
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .form-text .title-song h2{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .form-text .singer-name{
+	width: 100%;
+	height: 50px;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .form-text .singer-name p{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+#form-music .container .form-list-music .play-music .img-and-text .lyric {
+	width: 100%;
+	height: 150px;
+	background-color: transparent;
+}
+
+#form-music .container .form-list-music .play-music .song {
+	width: 100%;
+	height: 100px;
+}
+
+.xoayvong{
+	animation: xoayvong 3s linear infinite; 
+	/*linear là tốc dộ như nhau còn infinite là mãi mãi*/
+}
+
+@-webkit-keyframes xoayvong{
+	from{
+		transform: rotate(0);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+#form-music .container .form-list-music .play-music .song .song-running-bar {
+	width: 100%;
+	height: 5px;
+	margin: 0px auto;
+	cursor: pointer;
+	display: flex;
+	border-radius: 50px;
+}
+
+#form-music .container .form-list-music .play-music .song .song-running-bar #thanhnhac{
+	width: 100%;
+	-webkit-appearance: none;
+	height: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 2;
+	background-color: linear-gradient(90deg,rgb(3, 169, 244) 0%, white 100%);
+}
+
+#form-music .container .form-list-music .play-music .song .song-running-bar #thanhnhac::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#form-music .container .form-list-music .play-music .song .song-running-bar #thanhnhac::-webkit-slider-thumb:hover{
+	box-shadow: 0 0 0 20px rgba(98,0,238,.1);
+}
+
+#form-music .container .form-list-music .play-music .song .song-running-bar #thanhnhac:active::-webkit-slider-thumb{
+	box-shadow: 0 0 0 20px rgba(98,0,238,.3);
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll {
+	width: 100%;
+	height: 95px;
+	display: flex;
+	box-shadow: inset 0 0 2px 2px rgba(0,0,0,.6);
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-left {
+	width: 50%;
+	height: 100%;
+	padding-left: 100px;
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-left span{
+	font-size: 20px;
+	margin-left: 20px;
+	line-height: 95px;
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-left span i {
+	cursor: pointer;
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-right {
+	width: 50%;
+	height: 100%;
+	line-height: 95px;
+	font-size: 20px;
+	text-align: right;
+	padding-right: 100px;
+}
+
+#tudongphat input[type="checkbox"] {
+	position: relative;
+	width: 40px;
+	height: 20px;
+	-webkit-appearance: none;
+	background-color: black;
+	outline: none;
+	border-radius: 10px;
+	box-shadow: inset 0 0 2px;
+	cursor: pointer;
+}
+
+#tudongphat input:checked[type="checkbox"] {
+	background-color: #03a9f4;
+}
+
+#tudongphat input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: white;
+	top: 0;
+	left: 0;
+	transform: scale(1.1);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	transition: 0.5;
+}
+
+#tudongphat input:checked[type="checkbox"]:before {
+	left: 20px;
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-right span {
+	font-size: 20px;
+	margin-right: 20px;
+	line-height: 95px;
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-right span i{
+	cursor: pointer;
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-right #vol{
+	width: 100px;
+	height: 5px;
+	-webkit-appearance: none;
+	cursor: pointer;
+	z-index: 999;
+	background: linear-gradient(90deg,rgb(3, 169, 244) 100%, white 0%);
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-right #vol::-webkit-slider-thumb{
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	-webkit-appearance: none;
+	border-radius: 50%;
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-right #vol::-webkit-slider-thumb:hover{
+	box-shadow: 0 0 0 20px rgba(98,0,238,.1);
+}
+
+#form-music .container .form-list-music .play-music .song .song-controll .song-controll-right #vol:active::-webkit-slider-thumb{
+	box-shadow: 0 0 0 20px rgba(98,0,238,.2);
+}
+
+#form-music .container .next-music {
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+
+#form-music .container .next-music .next-music-moibai{
+	width: 100%;
+	min-height: 50px;
+	line-height: 50px;
+	display: flex;
+	border-bottom: 1px solid rgba(0,0,0,1);
+}
+
+#form-music .container .next-music .next-music-moibai .tieude{
+	width: 700px;
+	height: 100%;
+}
+
+#form-music .container .next-music .next-music-moibai .tieude span{
+	margin-left: 10px;
+	font-weight: 700;
+}
+
+#form-music .container .next-music .next-music-moibai .tieude span a{
+	text-decoration: none;
+	color: white;
+}
+
+#form-music .container .next-music .next-music-moibai .tieude span.tenrapper{
+	font-weight: 500;	
+	font-style: italic;
+}
+#form-music .container .next-music .next-music-moibai .tieude span.tenrapper a:hover,
+#form-music .container .next-music .next-music-moibai .tieude span.tenbai a:hover {
+	color: orange;
+}
+
+#form-music .container .next-music .next-music-moibai .soluotnghe {
+	width: 200px;
+	height: 100%;
+	text-align: center;
+}
+
+#form-music .container .next-music .next-music-moibai .soluotnghe i{
+	margin-right: 10px;
+}
+
+#form-music .container .next-music .next-music-moibai .icons{
+	width: 300px;
+	height: 100%;
+	text-align: right;
+}
+
+#form-music .container .next-music .next-music-moibai .icons span{
+	margin-right: 10px; 
+	color: white;
+}
+
+
+#form-music .container .next-music .next-music-moibai .icons span i.fa-heart:hover {
+	color: red;
+}
+#form-music .container .next-music .next-music-moibai .icons span i.fa-play:hover {
+	color: blue;
+}
+#form-music .container .next-music .next-music-moibai .icons span i.fa-list:hover {
+	color: green;
+}
+
+#form-music .container .next-music::-webkit-scrollbar {
+	width: 10px;
+	background-color: transparent;
+}
+
+#form-music .container .next-music::-webkit-scrollbar-track{
+	border: 1px solid black;
+}
+
+#form-music .container .next-music::-webkit-scrollbar-thumb {
+	background: linear-gradient(90deg,white,#03a9f4);
+	border-radius: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,194 @@
+#introduce {
+	width: 100%;
+	min-height: 400px;
+	margin-top: 50px;
+	background: linear-gradient(45deg,#656565,#313131);
+}
+
+#introduce .container {
+	width: 1200px;
+	min-height: 400px;
+	margin: 0px auto;
+	display: flex;
+}
+
+#introduce .container .image{
+	width: 800px;
+	height: 400px;
+	position: relative;
+}
+
+#introduce .container .image img{
+	width: 100%;
+	height: 100%;
+}
+
+#introduce .container .image h2{
+	color: white;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	font-size: 50px;
+	font-family: 'Simonetta', cursive;
+	text-shadow: 4px 8px black;
+}
+
+#introduce .container .infor_nomal {
+	width: 300px;
+	margin-left: 100px;
+	height: 400px;
+}
+
+#introduce .container .infor_nomal .image_small {
+	width: 300px;
+	height: 100px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#introduce .container .infor_nomal .image_small img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+#introduce .container .infor_nomal .rapper_name {
+	width: 300px;
+	height: 50px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#introduce .container .infor_nomal .rapper_name h2{
+	font-size: 30px;
+	color: white
+}
+
+#introduce .container .infor_nomal .infor{
+	width: 300px;
+	min-height: 100px;
+}
+
+#introduce .container .infor_nomal .infor div p{
+	text-align: center;
+	font-weight: 500;
+	color: white;
+}
+
+#total_infor {
+	width: 100%;
+	min-height: auto;
+}
+
+#total_infor .container {
+	width: 1200px;
+	min-height: 100vh;
+	margin: 0px auto;
+
+}
+
+#total_infor .container .story{
+	width: 100%;
+	min-height: 100px;
+	margin-bottom: 50px;
+}
+
+#total_infor .container .story h2{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+#total_infor .container .story p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #dedede;
+}
+
+#total_infor .container .list_rap {
+	width: 100%;
+	min-height: 100px;
+}
+
+#total_infor .container .list_rap .title_list_rap {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+}
+
+#total_infor .container .list_rap .title_list_rap h2{
+	text-shadow: 2px 2px red;
+}
+
+#total_infor .container .list_rap .each_post{
+	width: 100%;
+	min-height: 70px;
+	border-top: 1px solid black;
+	display: flex;
+}
+
+#total_infor .container .list_rap .each_post .image{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+#total_infor .container .list_rap .each_post .image img{
+	width: 100%;
+	height: 100%;
+}
+
+#total_infor .container .list_rap .each_post .rapname_and_rapper {
+	width: 500px;
+	min-height: 70px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#total_infor .container .list_rap .each_post .rapname_and_rapper a {
+	text-decoration: none;
+	color: white;
+}
+
+#total_infor .container .list_rap .each_post .rapname_and_rapper a:hover{
+	color: orange;
+}
+
+#total_infor .container .list_rap .each_post .soluotnghe{
+	width: 150px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: white;
+}
+
+#total_infor .container .list_rap .each_post .soluotnghe span i{
+	margin-right: 10px;
+}
+
+#total_infor .container .list_rap .each_post .icons{
+	width: 450px;
+	height: 70px;
+	line-height: 70px;
+	text-align: right;
+	color: white;
+}
+
+#total_infor .container .list_rap .each_post .icons span i{
+	margin-left: 10px;
+}
+
+#total_infor .container .list_rap .each_post .icons span i.fa-heart:hover{
+	color: red;
+}
+
+#total_infor .container .list_rap .each_post .icons span i.fa-play:hover{
+	color: blue;
+}
+
+#total_infor .container .list_rap .each_post .icons span i.fa-list:hover{
+	color: green;
+}

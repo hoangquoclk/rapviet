@@ -1,0 +1,112 @@
+#chude {
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	
+}
+
+#chude .chude-dau {
+	width: 100%;
+	height: 80vh;
+	background-color: black;
+	position: relative;
+}
+
+#chude .chude-dau a {
+	text-decoration: none;
+}
+
+#chude .chude-dau .hinh-chude-dau {
+	width: 100%;
+	height: 100%;
+}
+
+#chude .chude-dau .hinh-chude-dau img{
+	width: 100%;
+	height: 100%;
+}
+
+#chude .chude-dau .tieude-chude-dau {
+	position: absolute;
+	top: 20vh;
+	left: 60vh;
+	min-width: 10vh;
+	max-height: 20vh;
+	background-color: black;
+	opacity: .7;
+}
+
+#chude .chude-dau .tieude-chude-dau h2{
+	color: white;
+	font-size: 10vh;
+	text-shadow: 1vh 1vh black;
+}
+ 
+#chude .container {
+	width: 1200px;
+	min-height: auto;
+	margin: 0px auto;
+}
+
+#chude .container .chu-chude {
+	width: 1200px;
+	height: 100px;
+	line-height: 100px;
+}
+
+#chude .container .chu-chude h2 {
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px red;
+	font-weight: 800;
+}
+
+#chude .container .list-chude{
+	width: 1200px;
+	min-height: 100vh;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#chude .container .list-chude .cac-chude-con {
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 50px;
+
+}
+
+
+#chude .container .list-chude .cac-chude-con img {
+	max-width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	transition: transform 2s;
+}
+
+#chude .container .list-chude .cac-chude-con:hover img{
+	transform: scale(1.4);
+}
+
+#chude .container .list-chude .cac-chude-con .details {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	right: 40px;
+	bottom: 100px;
+	line-height: 100px;
+	background-color: #000000b0;
+	color: white;
+	max-width: 100%;
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+#chude .container .list-chude .cac-chude-con:hover .details	{
+	transform: scaleY(1);
+}

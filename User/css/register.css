@@ -1,0 +1,107 @@
+#login {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+#login .container {
+	width: 1200px;
+	min-height: 100vh;
+	margin: 0px auto;
+}
+
+#login .container .form_login {
+	width: 600px;
+	height: 100vh;
+	background-color: rgba(29,29,29,1);
+	margin: 0px auto;
+}
+
+#login .container .form_login .title_login {
+	width: 100%;
+	height: 100px;
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#login .container .form_login .title_login h2{
+	width: 300px;
+	height: 50px;
+	background-color: #00abfd;
+	line-height: 50px;
+	margin-left: 150px;
+	border-radius: 25px;
+	color: white;
+	font-size: 25px;
+}
+
+#login .container .form_login div {
+	display: flex;
+}
+
+#login .container .form_login div div.tentaikhoan{
+	margin-left: 40px;
+	width: 200px;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 50px;
+}
+
+#login .container .form_login div div.matkhau{
+	margin-left: 40px;
+	width: 200px;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 50px;
+}
+
+#login .container .form_login div div.nhaplaimatkhau{
+	margin-left: 40px;
+	width: 200px;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 50px;
+}
+
+#login .container .form_login div input {
+	text-align: center;
+	width: 250px;
+	font-size: 17px;
+	height: 40px;
+	border-radius: 12px;
+	box-shadow: inset 0 0 2px 1px rgba(0,0,0,.6);
+}
+
+#login .container .form_login div button {
+	margin-top: 20px;
+	font-size: 15px;
+	width: 100px;
+	height: 35px;
+	color: white;
+	margin-left: 250px;
+}
+
+
+#login .container .form_login div button#dangky {
+	background-color: rgba(212, 94, 35, 1);
+	cursor: pointer;
+}
+
+#login .container .form_login div button#dangky:hover {
+	background-color: rgba(212, 94, 35, .6);
+}
+
+#login .container .form_login .login_with {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	margin-top: 50px;
+}
+
+#login .container .form_login .login_with span {
+	margin-right: 20px;
+}

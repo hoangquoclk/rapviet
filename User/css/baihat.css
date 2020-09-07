@@ -1,0 +1,254 @@
+#theloai-baihat{
+	width: 100%;
+	height: auto;
+	
+}
+
+#theloai-baihat .container {
+	width: 1200px;
+	min-height: 600px;
+	background-color: transparent;
+	margin: 0px auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+#theloai-baihat .container .theloai {
+	width: 850px;
+	min-height: 600px;
+	background-color: transparent;
+}
+
+#theloai-baihat .container .theloai .moiphathanh {
+	width: 100%;
+	height: 150px;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 150px;
+	border-bottom: 1px solid gray;
+	
+}
+
+#theloai-baihat .container .theloai .moiphathanh a{
+	text-decoration: none;
+	color: #2cf7db;
+}
+
+#theloai-baihat .container .theloai .moiphathanh a:hover{
+	color: orange;
+}
+
+#theloai-baihat .container .theloai .khuvuc {
+	width: 100%;
+	min-height: 150px;
+	border-bottom: 1px solid gray;
+}
+
+#theloai-baihat .container .theloai .khuvuc .chu-khuvuc {
+	width: 100px;
+	height: 150px;
+	float: left;
+	line-height: 75px;
+	font-size: 18px;
+	font-weight: 800;
+	margin-right: 50px;
+	color: #2cf7db;
+}
+
+#theloai-baihat .container .theloai .khuvuc .chu-baihat{
+	float: left;
+	width: 100px;
+	height: 75px;
+	line-height: 75px;  
+	margin-right: 15px;
+	color: #f7a7e9;
+	font-weight: 600;
+}
+
+#theloai-baihat .container .theloai .khuvuc .chu-baihat:hover{
+	color: orange;
+}
+
+#theloai-baihat .container .rapper {
+	width: 300px;
+	height: 600px;
+	margin-left: 50px;
+	background-color: transparent;
+	position: relative;
+}
+
+#theloai-baihat .container .rapper .chu-rapper {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 10px;
+}
+
+#theloai-baihat .container .rapper .chu-rapper a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+#theloai-baihat .container .rapper .rapper-noibat {
+	width: 290px;
+	height: 250px;
+	margin-left: 10px;
+}
+
+#theloai-baihat .container .rapper .rapper-noibat img{
+	width: 100%;
+	height: 100%;
+}
+
+#theloai-baihat .container .rapper .rapper-noibat-hover {
+	width: 290px;
+	margin-left: 10px;
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size: 20px;
+	background-color: black;
+	opacity: 0.6;
+	color: white;
+	display: none;
+	position: absolute;
+	top: 50px;
+}
+
+#theloai-baihat .container .rapper-conlai {
+	width: 140px;
+	height: 140px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+#theloai-baihat .container .rapper-conlai div {
+	width: 140px;
+	height: 140px;
+	
+}
+
+#theloai-baihat .container .rapper-conlai div img{
+	width: 100%;
+	height: 100%;
+
+}
+
+#theloai-baihat .container .rapper-conlai-hover{
+	width: 140px;
+	height: 140px;
+	background-color: black;
+	opacity: 0.6;
+	text-align: center;
+	line-height: 140px;
+	position: absolute;
+	color: white;
+	top: 0px;
+	display: none;
+}
+
+#list-baihat {
+	width: 100%;
+	height: 850px;
+}
+
+#list-baihat .container {
+	width: 1200px;
+	height: 850px;
+	margin: 0px auto;
+}
+
+#list-baihat .container .chu-list-baihat {
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+#list-baihat .container .baihat{
+	width: 600px;
+	height: 80px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid gray;
+	float: left;
+}
+
+#list-baihat .container .baihat .hinh-baihat {
+	width: 100px;
+	height: 80px;
+}
+
+#list-baihat .container .baihat .hinh-baihat img{
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+}
+
+#list-baihat .container .baihat .the-h3-va-p {
+	width: 250px;
+	min-height: 80px;
+}
+
+#list-baihat .container .baihat .the-h3-va-p a{
+	text-decoration: none;
+	color: white;
+}
+
+#list-baihat .container .baihat .the-h3-va-p a h3{
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+#list-baihat .container .baihat .the-h3-va-p a h3:hover{
+	color: orange;
+}
+
+#list-baihat .container .baihat .the-h3-va-p a p:hover{
+	color: orange;
+}
+
+#list-baihat .container .baihat .soluotnghe {
+	width: 100px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+}
+
+#list-baihat .container .baihat .soluotnghe span i{
+	margin-right: 10px;
+}
+
+#list-baihat .container .baihat .icons {
+	width: 150px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+
+#list-baihat .container .baihat .icons span i{
+	margin-right: 10px;
+	color: white;
+}
+
+#list-baihat .container .baihat .icons span i.fa-heart:hover {
+	color: red;
+}
+#list-baihat .container .baihat .icons span i.fa-play:hover {
+	color: blue;
+}
+#list-baihat .container .baihat .icons span i.fa-list:hover {
+	color: green;
+}
